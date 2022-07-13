@@ -34,6 +34,7 @@ OpenMod.Unturned.Module.Shared.pdb
 OpenMod.Unturned.Module.Shared.xml
 OpenMod.Unturned.Module.xml
 System.AppContext.dll
+System.Buffers.dll
 System.Collections.Concurrent.dll
 System.Collections.dll
 System.Collections.Immutable.dll
@@ -79,6 +80,7 @@ System.Linq.Expressions.dll
 System.Linq.Parallel.dll
 System.Linq.Queryable.dll
 System.Management.dll
+System.Memory.dll
 System.Net.Http.dll
 System.Net.NameResolution.dll
 System.Net.NetworkInformation.dll
@@ -90,6 +92,7 @@ System.Net.Sockets.dll
 System.Net.WebHeaderCollection.dll
 System.Net.WebSockets.Client.dll
 System.Net.WebSockets.dll
+System.Numerics.Vectors.dll
 System.ObjectModel.dll
 System.Reflection.dll
 System.Reflection.Extensions.dll
@@ -97,6 +100,7 @@ System.Reflection.Primitives.dll
 System.Resources.Reader.dll
 System.Resources.ResourceManager.dll
 System.Resources.Writer.dll
+System.Runtime.CompilerServices.Unsafe.dll
 System.Runtime.CompilerServices.VisualC.dll
 System.Runtime.dll
 System.Runtime.Extensions.dll
