@@ -2,7 +2,6 @@
 dnlib.dll
 English.dat
 Microsoft.Win32.Primitives.dll
-NETFRAME.exe
 netstandard.dll
 Newtonsoft.Json.dll
 Nito.AsyncEx.Context.dll
