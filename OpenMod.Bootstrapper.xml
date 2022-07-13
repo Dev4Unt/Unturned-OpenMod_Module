@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenMod.Bootstrapper</name>
+    </assembly>
+    <members>
+        <member name="T:OpenMod.Bootstrapper.OpenModDynamicBootstrapper">
+            <summary>
+            This class is responsible for downloading OpenMod.Core, OpenMod.API, the host package and their dependencies. <br/>
+            After download, it will boot OpenMod and then initialize the IRuntime implementation.
+            </summary>
+        </member>
+        <member name="M:OpenMod.Bootstrapper.OpenModDynamicBootstrapper.BootstrapAsync(OpenMod.NuGet.NuGetPackageManager,System.String,System.String[],System.String,System.Boolean,NuGet.Common.ILogger)">
+            <summary>
+            Bootstrap OpenMod.
+            </summary>
+            <param name="packageManager">The optional package manager.</param>
+            <param name="openModFolder">The OpenMod working directory.</param>
+            <param name="commandLineArgs">The command line arguments.</param>
+            <param name="packageId">The ID of the host package.</param>
+            <param name="allowPrereleaseVersions">If true, will download pre-release versions.</param>
+            <param name="logger">The optional logger.</param>
+            <returns>The OpenMod runtime.</returns>
+        </member>
+        <member name="M:OpenMod.Bootstrapper.OpenModDynamicBootstrapper.Bootstrap(OpenMod.NuGet.NuGetPackageManager,System.String,System.String[],System.Collections.Generic.IEnumerable{System.String},System.Boolean,NuGet.Common.ILogger)">
+            <summary>
+            Bootstrap OpenMod.
+            </summary>
+            <param name="packageManager">The optional package manager.</param>
+            <param name="openModFolder">The OpenMod working directory.</param>
+            <param name="commandLineArgs">The command line arguments.</param>
+            <param name="packageIds">The IDs of the host package.</param>
+            <param name="allowPrereleaseVersions">If true, will download pre-release versions.</param>
+            <param name="logger">The optional logger.</param>
+            <returns>The OpenMod runtime.</returns>
+        </member>
+        <member name="M:OpenMod.Bootstrapper.OpenModDynamicBootstrapper.BootstrapAsync(OpenMod.NuGet.NuGetPackageManager,System.String,System.String[],System.Collections.Generic.IEnumerable{System.String},System.Boolean,NuGet.Common.ILogger)">
+            <summary>
+            Bootstrap OpenMod.
+            </summary>
+            <param name="packageManager">The optional package manager.</param>
+            <param name="openModFolder">The OpenMod working directory.</param>
+            <param name="commandLineArgs">The command line arguments.</param>
+            <param name="packageIds">The IDs of the host package.</param>
+            <param name="allowPrereleaseVersions">If true, will download pre-release versions.</param>
+            <param name="logger">The optional logger.</param>
+            <returns>The OpenMod runtime.</returns>
+        </member>
+    </members>
+</doc>
